@@ -1,0 +1,229 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Freckle+Face&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Basic&subset=latin-ext');
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.view {
+    background: url("../images/tegalalang.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    height: 70%;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FAFFFD;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #3C91E6;
+    background-color: transparent;
+}
+
+.customfont-style {
+   font-family: 'Basic', sans-serif;
+
+}
+
+.alert-style {
+    width: 200px;
+    position: absolute;
+    right: 42px;
+    top: 55px;
+}
+
+.alert-success {
+    color: #3C91E6;
+    background-color: #FAFFFD;
+   font-family: 'Basic', sans-serif;
+}
+
+.font-navrow {
+    font-family: 'Freckle Face', cursive;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #FAFFFD;
+    text-shadow: 0 1px 0 #FAFFFD;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+.close:hover,
+.close:focus {
+    color: #FAFFFD;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.modal-header {
+    color: #FAFFFD;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-content {
+    font-family: 'Basic', sans-serif;
+    position: relative;
+    background-color: #342E37;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.intro-style {
+    padding-top: 10%;
+    color: #FAFFFD;
+   font-family: 'Basic', sans-serif;
+    margin: 0;
+}
+
+.navbar-inverse .navbar-text {
+    color: #FAFFFD;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FAFFFD;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #3C91E6;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #3C91E6;
+    background-color: #342E37;
+}
+
+.button-font {}
+
+.sidebar {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* Scrollable contents if viewport is shorter than content. */
+        background-color: #f5f5f5;
+        border-right: 1px solid #eee;
+    }
+}
+
+
+/* Sidebar navigation */
+
+.nav-sidebar {
+    margin-right: -21px;
+    /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+.nav-sidebar>li>a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-sidebar>a,
+.nav-sidebar>a:hover,
+.nav-sidebar>a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+.main .page-header {
+    margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.placeholders h4 {
+    margin-bottom: 0;
+}
+
+.placeholder {
+    margin-bottom: 20px;
+}
+
+.placeholder img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.input-lg {
+    border-radius: 0px;
+}
+
+.modal-content {
+    border-radius: 0px;
+}
+#filter-div{
+  visibility: hidden;
+}
